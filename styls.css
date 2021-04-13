@@ -1,0 +1,80 @@
+* {
+  tamaño de la caja: caja de borde
+}
+
+html {
+  -webkit-font-smoothing: suavizado;
+  -moz-osx-font-smoothing: escala de grises;
+  familia de fuentes: 'Dosis', sans-serif;
+  altura de línea: 1,6;
+  color: # 666;
+  fondo: # F6F6F6;
+}
+
+#raíz {
+  ancho máximo: 1200px;
+  margen: 0 automático;
+}
+
+h1 {
+  alineación de texto: centro;
+  acolchado: 1.5rem 2.5rem;
+  imagen de fondo: gradiente lineal (120 grados, # fbc2eb 0%, # a6c1ee 100%);
+  margen: 0 0 2rem 0;
+  tamaño de fuente: 1.5rem;
+  color blanco;
+}
+
+img {
+  bloqueo de pantalla;
+  margen: 1rem automático;
+  ancho máximo: 100%;
+}
+
+pag {
+  acolchado: 0 2.5rem 2.5rem;
+  margen: 0;
+}
+
+.envase {
+  pantalla: flex;
+  envoltura flexible: envoltura;
+}
+
+.tarjeta {
+  margen: 1rem;
+  fondo: blanco;
+  caja-sombra: 2px 4px 25px rgba (0, 0, 0, .1);
+  radio del borde: 12px;
+  desbordamiento: oculto;
+  transición: todos los .2s lineales;
+}
+
+.card: hover {
+  caja-sombra: 2px 8px 45px rgba (0, 0, 0, .15);
+  transformar: translate3D (0, -2px, 0);
+}
+
+@media pantalla y (ancho mínimo: 600px) {
+  .tarjeta {
+    flex: 1 1 calc (50% - 2rem);
+  }
+}
+
+@media pantalla y (ancho mínimo: 900px) {
+  .tarjeta {
+    flex: 1 1 calc (33% - 2rem);
+  }
+}
+
+.card: nth-child (2n) h1 {
+  imagen de fondo: gradiente lineal (120 grados, # 84fab0 0%, # 8fd3f4 100%);
+}
+
+.card: nth-child (4n) h1 {
+  imagen de fondo: gradiente lineal (120 grados, # ff9a9e 0%, #fecfef 100%);
+}
+
+.card: nth-child (5n) h1 {
+  imagen de fondo: gradiente lineal (120 grados, # ffc3a0 0%, #ffafbd 100%);
+}
